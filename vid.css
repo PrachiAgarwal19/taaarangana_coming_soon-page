@@ -110,6 +110,8 @@ header .logo
   text-align: left;
   line-height: 1;
   color: #c6e2ff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   animation: neon 1s ease-in-out infinite alternate;
 }
 @keyframes neon {
@@ -132,7 +134,7 @@ header .logo
     0 0 60px rgba(30,132,242,1);
   }
 }
-.text p
+/* .text p
 {
   /* font-size: 1.1em;
   color: #fff;
@@ -140,7 +142,7 @@ header .logo
   font-weight: 400;
   /* max-width: 700px; */
   /*width: 80%; */
-  font-family: Lora;
+  /*font-family: Lora;
   letter-spacing: 0.2rem;
   stroke: #ffa5d8;
   font-size: 7rem;
@@ -164,7 +166,7 @@ header .logo
     fill: hsla(189, 68%, 75%,0%)
   }
   
-}
+} */
 /* .text a
 {
   display: inline-block;
@@ -281,9 +283,9 @@ body {margin-top:-3.8rem;}
     font-size: 2.5rem;
   }
 
-  .text p{
+  /* .text p{
     font-size: 4rem;
-  }
+  } */
   .modal-dialog {
     margin-top: 180px;
     max-width: 430px;
@@ -296,9 +298,9 @@ body {margin-top:-3.8rem;}
     font-size: 2rem;
   }
 
-  .text p{
+  /* .text p{
     font-size: 3.5rem;
-  }
+  } */
   .modal-dialog {
     margin-top: 200px;
     max-width: 350px;
@@ -311,7 +313,7 @@ body {margin-top:-3.8rem;}
     font-size: 1.8rem;
   }
 
-  .text p{
+  /* .text p{
     font-size: 2.6rem;
-  }
+  } */
 }

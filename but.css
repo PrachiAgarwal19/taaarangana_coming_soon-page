@@ -94,12 +94,11 @@ body {
 
 svg text {
   font-family: Lora;
-  letter-spacing: 10px;
+  letter-spacing: 0.1rem;
   stroke: #FFFF00;
-  font-size: 150px;
+  font-size: 6.8rem;
   font-weight: 700;
   stroke-width: 3;
- 
   animation: textAnimate 5s infinite alternate;
   
 }
@@ -145,6 +144,18 @@ svg text {
         background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
    }
 }
+@media screen and (max-width: 991px)
+{
+    svg text{
+        font-size: 4.6rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    svg text{
+        font-size: 3.6rem;
+    }
+}
 @media screen and (max-width: 500px){
     .bubbly-button {
       text-align: center;
@@ -164,4 +175,18 @@ svg text {
     .patterns{
         font-display: auto;
     }
+    svg text{
+        font-size: 2.5rem;
+    }
 }
+@media screen and (max-width: 400px){
+    svg text{
+        font-size: 2.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 340px){
+    svg text{
+        font-size: 2.2rem;
+    }
+  }
