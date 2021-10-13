@@ -148,7 +148,7 @@ header .logo
   font-size: 7rem;
   font-weight: 700;
   stroke-width: 3;
- 
+
   animation: textAnimate 5s infinite alternate;
 }
 
@@ -159,13 +159,13 @@ header .logo
     fill:hsl(189, 68%, 75%)
 
   }
-  
+
   100% {
     stroke-dasharray: 50% 0;
     stroke-dashoffstet: -20%;
     fill: hsla(189, 68%, 75%,0%)
   }
-  
+
 } */
 /* .text a
 {
@@ -224,7 +224,7 @@ header .logo
 body {margin-top:-3.8rem;}
 
 .modal-dialog {
-      max-width: 800px;
+      max-width: 61vw;
       margin: 30px auto;
   }
 
@@ -257,6 +257,9 @@ body {margin-top:-3.8rem;}
   {
     font-size: 2em;
   }
+  .modal-dialog {
+    margin: 120px auto;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -270,7 +273,7 @@ body {margin-top:-3.8rem;}
   }
   .modal-dialog {
     margin-top: 80px;
-    max-width: 580px;
+    max-width: 85vw;
   }
   .button-text {
     font-size: 1rem;
@@ -288,7 +291,7 @@ body {margin-top:-3.8rem;}
   } */
   .modal-dialog {
     margin-top: 180px;
-    max-width: 430px;
+    max-width: 85vw;
   }
 }
 
@@ -303,7 +306,7 @@ body {margin-top:-3.8rem;}
   } */
   .modal-dialog {
     margin-top: 200px;
-    max-width: 350px;
+    max-width: 80vw;
   }
 }
 
