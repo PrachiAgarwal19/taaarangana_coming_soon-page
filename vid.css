@@ -243,6 +243,10 @@ body {margin-top:-3.8rem;}
 /* MODAL ENDS */
 
 /* MEDIA QUERIES */
+
+/* MODAL ENDS */
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 1200px)
 {
   .showcase,
@@ -381,10 +385,10 @@ body {margin-top:-3.8rem;}
     width: 75px;
     position: relative;
     top: 45%;
-    right: 88%;
+    right: 80%;
   }
   .button-text {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 
@@ -402,10 +406,53 @@ body {margin-top:-3.8rem;}
     height: 70px;
     width: 70px;
     position: relative;
-    top: 45%;
-    right: 88%;
+    top: 48%;
+    right: 78%;
   }
   .button-text {
     font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width:360px){
+  .video-btn {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 48%;
+    right: 90%;
+  }
+  .button-text {
+    font-size: 2.1rem;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  .video-btn {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 50%;
+    right: 80%;
+  }
+  .button-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width:280px){
+  .video-btn {
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 42%;
+    right: 88%;
+  }
+  .button-text {
+    font-size: 1.6rem;
   }
 }
