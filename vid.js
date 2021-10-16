@@ -6,7 +6,10 @@ $(document).ready(function () {
     $videoSrc = $(this).data('src');
   });
 
-
+  window.onload = function () {
+    var element = document.getElementById('video');
+    element.muted = "muted";
+}
   // when the modal is opened autoplay it
   $('#myModal').on('shown.bs.modal', function (e) {
     //hiding elements
