@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   window.onload = function () {
     var element = document.getElementById("mainvideo");
-    element.muted = "muted";
+    element.muted = true;
   };
   // when the modal is opened autoplay it
   $("#myModal").on("shown.bs.modal", function (e) {
